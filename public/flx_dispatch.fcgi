@@ -7,7 +7,7 @@ __rails_root    = __user_home  + __rails_root
 
 ENV['GEM_HOME'] = __user_home + "/.gem/ruby/1.8"
 ENV['GEM_PATH'] = ENV['GEM_HOME']
-ENV['RAILS_ENV'] ||= 'production'
+ENV['RAILS_ENV'] ||= 'development'
 
 require File.dirname(__FILE__) + "/../config/environment" unless defined?(RAILS_ROOT)
 require 'fcgi_handler'
